@@ -1,10 +1,12 @@
-<template>
-  <div>
-    <nuxt />
-  </div>
+<template lang="pug">
+  div
+    nuxt
 </template>
 
-<style>
+<style lang="scss">
+@import '../node_modules/reset-css/sass/_reset.scss';
+@import '~assets/scss/base';
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;

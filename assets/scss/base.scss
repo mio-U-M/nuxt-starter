@@ -1,0 +1,13 @@
+@import "_function.scss";
+@import "_variables.scss";
+@import "_mixin.scss";
+@import "_keyframes.scss";
+@import "_transition.scss";
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', YuGothic, 'Yu Gothic Medium', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+a {
+  text-decoration: none;
+}
