@@ -19,20 +19,21 @@ export default {
 }
 </script>
 
-<style lang="stylus" scoped>
-@import '~assets/stylus/base'
-.error
-  width 100%
-  height 100%
-  background #000
-
-.page404
-  width 100%
-  height 100%
-  overflow hidden
-
-.page500
-  width 100%
-  height 100%
-  overflow hidden
+<style lang="scss" scoped>
+@import '~assets/scss/base';
+.error {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+.page404 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.page500 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 </style>
