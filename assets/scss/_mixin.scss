@@ -60,3 +60,9 @@
     @content;
   }
 }
+
+@mixin hide-text {
+  span {
+    display: none;
+  }
+}
