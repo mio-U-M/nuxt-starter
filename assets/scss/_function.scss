@@ -1,0 +1,16 @@
+@function image-url($path) {
+  @return url("~assets/img/#{$path}");
+}
+
+@function pSize($value) {
+  @return $value / $pc_min_width * 100 + vw;
+}
+
+@function tSize($value) {
+  @return $value / $tablet_max_width * 100 + vw;
+}
+
+@function sSize($value) {
+  @return $value / $sp_max_width * 100 + vw;
+}
+

@@ -7,6 +7,8 @@
 </template>
 
 <style lang="scss" scoped>
+@import '~assets/scss/base';
+
 .VueToNuxtLogo {
   display: inline-block;
   animation: turn 2s linear forwards 1s;

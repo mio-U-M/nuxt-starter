@@ -20,6 +20,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '~assets/scss/base';
+
 .container {
   margin: 0 auto;
   min-height: 100vh;
