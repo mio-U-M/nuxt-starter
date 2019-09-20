@@ -23,7 +23,6 @@ module.exports = {
     'vue/require-default-prop': 'error',
     'vue/require-prop-types': 'error',
     'vue/order-in-components': 'error',
-    'new-cap': 'off',
     'no-console': 'warn',
     'no-unused-vars': 'warn',
     'no-undef': 'warn'
