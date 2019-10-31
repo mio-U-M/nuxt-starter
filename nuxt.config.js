@@ -28,7 +28,8 @@ export default {
    ** file generate
    */
   generate: {
-    dir: `./public${BASE_DIR}`
+    dir: `./public${BASE_DIR}`,
+    fallback: true
   },
   /*
    ** Nuxt.js dev-modules
