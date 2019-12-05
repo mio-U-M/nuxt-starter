@@ -71,6 +71,14 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    filenames: {
+      app: () => '[name].js',
+      chunk: () => '[name].js',
+      css: () => '[name].js',
+      img: () => '[path][name].[ext]',
+      font: () => '[path][name].[ext]',
+      video: () => '[path][name].[ext]'
+    },
     extend(config, ctx) {}
   }
 }
