@@ -52,4 +52,17 @@ export default {
 .links {
   padding-top: 15px;
 }
+
+.button--green {
+  @include button-component(#3b8070);
+}
+
+.button--grey {
+  @include button-component(#35495e);
+  margin-left: 15px;
+}
+
+.button--blue {
+  @include button-component(#005c91);
+}
 </style>
