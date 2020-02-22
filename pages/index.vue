@@ -1,20 +1,32 @@
 <template lang="pug">
   .container
     div
-      logo
+      Logo
       h1.title nuxt-startar
       h2.subtitl Nuxt.js startar for web project
       .links
         a(href="https://nuxtjs.org/" target="_blank").button--green Documentation
         a(href="https://github.com/nuxt/nuxt.js" target="_blank").button--grey GitHub
+      .modal
+       button(@click='openModal').button--blue Open Modal
+    Modal
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 import Logo from '~/components/Logo.vue'
+import Modal from '~/components/Modal.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Modal
+  },
+  methods: {
+    ...mapActions(['updateModal']),
+    openModal() {
+      this.updateModal('ModalContent1')
+    }
   }
 }
 </script>
@@ -51,5 +63,23 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.button--green {
+  @include button-component(#3b8070);
+}
+
+.button--grey {
+  @include button-component(#35495e);
+  margin-left: 25px;
+}
+
+.modal {
+  padding-top: 25px;
+}
+
+.button--blue {
+  @include form-style-reset;
+  @include button-component(#005c91);
 }
 </style>
