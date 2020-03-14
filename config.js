@@ -4,12 +4,8 @@ export const URL = 'https://example.com/'
 
 export const OGP_URL = `${URL}ogp.png`
 export const TITLE = 'Page Title'
-export const DESCRIPTION =
-  'This is description for site share'
-export const KEYWORDS = [
-  'サンプルキーワード１',
-  'サンプルキーワード２'
-]
+export const DESCRIPTION = 'This is description for site share'
+export const KEYWORDS = 'サンプルキーワード１,サンプルキーワード２'
 
 export const META = {
   title: TITLE,
@@ -17,7 +13,7 @@ export const META = {
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=750' },
     { hid: 'description', name: 'description', content: DESCRIPTION },
-    { name: 'keywords', content: KEYWORDS.join(',') },
+    { name: 'keywords', content: KEYWORDS },
     { hid: 'url', property: 'og:url', content: URL },
     { property: 'og:title', content: TITLE },
     { hid: 'ogp', property: 'og:image', content: OGP_URL },
