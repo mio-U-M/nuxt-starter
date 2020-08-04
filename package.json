@@ -2,7 +2,7 @@
   "name": "nuxt-startar",
   "version": "1.0.0",
   "description": "Nuxt.js startar for web project",
-  "author": "tagami-mio",
+  "author": "ueno-mio",
   "private": true,
   "scripts": {
     "dev": "HOST=0.0.0.0 nuxt",
